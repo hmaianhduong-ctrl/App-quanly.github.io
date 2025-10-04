@@ -8,7 +8,7 @@
       "id": "tc01",
       "name": "Đăng nhập thành công",
       "commands": [
-        { "command": "open", "target": "/login.html", "value": "" },
+        { "command": "open", "target": "/index.html", "value": "" },
         { "command": "type", "target": "id=username", "value": "sv1@ptit.edu.vn" },
         { "command": "type", "target": "id=password", "value": "P@ssw0rd" },
         { "command": "click", "target": "id=btnLogin", "value": "" },
@@ -19,7 +19,7 @@
       "id": "tc02",
       "name": "Sai password",
       "commands": [
-        { "command": "open", "target": "/login.html", "value": "" },
+        { "command": "open", "target": "/index.html", "value": "" },
         { "command": "type", "target": "id=username", "value": "sv1@ptit.edu.vn" },
         { "command": "type", "target": "id=password", "value": "123456" },
         { "command": "click", "target": "id=btnLogin", "value": "" },
@@ -30,7 +30,7 @@
       "id": "tc03",
       "name": "Trống Username",
       "commands": [
-        { "command": "open", "target": "/login.html", "value": "" },
+        { "command": "open", "target": "/index.html", "value": "" },
         { "command": "type", "target": "id=password", "value": "P@ssw0rd" },
         { "command": "type", "target": "id=username", "value": "" },
         { "command": "click", "target": "id=btnLogin", "value": "" },
@@ -41,7 +41,7 @@
       "id": "tc04",
       "name": "Trống Password",
       "commands": [
-        { "command": "open", "target": "/login.html", "value": "" },
+        { "command": "open", "target": "/index.html", "value": "" },
         { "command": "type", "target": "id=username", "value": "sv1@ptit.edu.vn" },
         { "command": "type", "target": "id=password", "value": "" },
         { "command": "click", "target": "id=btnLogin", "value": "" },
@@ -52,7 +52,7 @@
       "id": "tc05",
       "name": "Forgot password link",
       "commands": [
-        { "command": "open", "target": "/login.html", "value": "" },
+        { "command": "open", "target": "/index.html", "value": "" },
         { "command": "click", "target": "id=linkForgot", "value": "" },
         { "command": "pause", "target": "500", "value": "" }
       ]
@@ -61,7 +61,7 @@
       "id": "tc06",
       "name": "Sign up link",
       "commands": [
-        { "command": "open", "target": "/login.html", "value": "" },
+        { "command": "open", "target": "/index.html", "value": "" },
         { "command": "click", "target": "id=linkSignup", "value": "" },
         { "command": "pause", "target": "500", "value": "" }
       ]
@@ -70,7 +70,7 @@
       "id": "tc07",
       "name": "Social login buttons",
       "commands": [
-        { "command": "open", "target": "/login.html", "value": "" },
+        { "command": "open", "target": "/index.html", "value": "" },
         { "command": "click", "target": "id=btnFacebook", "value": "" },
         { "command": "click", "target": "id=btnTwitter", "value": "" },
         { "command": "click", "target": "id=btnGoogle", "value": "" }
@@ -87,6 +87,7 @@
       "tests": ["tc01", "tc02", "tc03", "tc04", "tc05", "tc06", "tc07"]
     }
   ],
-  "urls": ["http://127.0.0.1:5500/login.html"]
+  "urls": ["http://127.0.0.1:5500/index.html"]
 }
+
 
